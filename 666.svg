@@ -1,0 +1,40 @@
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	  <style type="text/css">
+		svg{
+	    display: block;
+	    transform-origin: center center;
+	    transition: transform 0.3s ease-in-out;
+		animation: fly-1 4s infinite;
+	  }
+	  @keyframes fly-1 {
+	    0% {
+	      transform: translateY(0em)translateX(0) rotate(0) scale(1);
+	    }
+	    10% {
+	      transform: translateY(0.1em) translateX(2.2em) rotate(45deg) scale(1);
+	    }
+		20%{
+			transform: translateY(-0.1em) translateX(2.2em) rotate(45deg) scale(1.1);
+		}
+		30%{
+			transform:translateY(0.1em) translateX(2.2em) rotate(45deg) scale(1.1);
+		}
+		40%{
+			transform:translateY(-0.1em) translateX(2.2em) rotate(45deg) scale(1.1);
+		}
+		50%{
+			transform: translateY(0.1em) translateX(2.2em) rotate(45deg) scale(1.1);
+		}
+		75%{
+			transform: translateY(-0.1em) translateX(2.2em) rotate(45deg) scale(1.1);
+		}
+		100%{
+			transform: translateY(0em) translateX(0em) rotate(0) scale(1);
+		}
+	  }
+	  
+	  </style>
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path fill="#efefef" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+      </svg>
